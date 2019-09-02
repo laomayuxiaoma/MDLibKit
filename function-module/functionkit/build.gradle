@@ -41,23 +41,23 @@ dependencies {
     compile project(':function-module:pickerview')
     compile project(':function-module:calendar')
 
-    if (isDependencies.toBoolean()) {
-        api('com.muheda.customrefreshlayout:customrefreshlayout:1.0')
-        api('com.muheda.customtitleview:customtitleview:1.0')
-        api('com.example.pictureselect:pictureselect:1.0')
-        api('com.example.toast_dialog:toast_dialog:1.0')
-        api('com.example.muheda.sqlitepal:sqlitepal:1.0')
-        api('com.muheda.imageloader:imageloader:1.0')
-        api('com.example.muheda.baseanimation:baseanimation:1.0')
-        api('com.muheda.pickerview:pickerview:1.0')
-        api('com.muheda.bottombar:bottombar:1.0')
-        api('com.muheda:zxing:1.0')
-        api('com.muheda:calendarview:1.0')
-        api('com.muheda:servicelocation:1.0')
-        api('com.muheda:citylocation:1.0')
-        api('com.muheda.amapservice:1.0')
-        api('com.muheda.selector:1.0')
-    } else {
+//    if (isDependencies.toBoolean()) {
+//        api('com.muheda.customrefreshlayout:customrefreshlayout:1.0')
+//        api('com.muheda.customtitleview:customtitleview:1.0')
+//        api('com.example.pictureselect:pictureselect:1.0')
+//        api('com.example.toast_dialog:toast_dialog:1.0')
+//        api('com.example.muheda.sqlitepal:sqlitepal:1.0')
+//        api('com.muheda.imageloader:imageloader:1.0')
+//        api('com.example.muheda.baseanimation:baseanimation:1.0')
+//        api('com.muheda.pickerview:pickerview:1.0')
+//        api('com.muheda.bottombar:bottombar:1.0')
+//        api('com.muheda:zxing:1.0')
+//        api('com.muheda:calendarview:1.0')
+//        api('com.muheda:servicelocation:1.0')
+//        api('com.muheda:citylocation:1.0')
+//        api('com.muheda.amapservice:1.0')
+//        api('com.muheda.selector:1.0')
+//    } else {
         compile project(':function-module:customtitleview')
         compile project(':function-module:imageloader')
         compile project(':function-module:customrefreshlayout')
@@ -67,7 +67,7 @@ dependencies {
         compile project(':function-module:pictureselect')
         compile project(':function-module:amapservice')
         compile project(':function-module:selector')
-    }
+//    }
 }
 
 
@@ -77,15 +77,15 @@ dependencies {
 
 
 
-uploadArchives {
-    if (isAllPack.toBoolean() || isFunctionkitPack.toBoolean()) {
-        repositories {
-            mavenDeployer {
-                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
-                pom.version = '1.0'
-                pom.groupId = 'com.example.muheda.functionkit'
-                pom.artifactId = 'functionkit'
-            }
-        }
-    }
-}
+//uploadArchives {
+//    if (isAllPack.toBoolean() || isFunctionkitPack.toBoolean()) {
+//        repositories {
+//            mavenDeployer {
+//                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
+//                pom.version = '1.0'
+//                pom.groupId = 'com.example.muheda.functionkit'
+//                pom.artifactId = 'functionkit'
+//            }
+//        }
+//    }
+//}

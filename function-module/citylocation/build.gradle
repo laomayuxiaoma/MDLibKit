@@ -38,15 +38,15 @@ dependencies {
         compile project(':function-module:amapservice')
     }
 }
-uploadArchives {
-    if (isAllPack.toBoolean() || isCityLocation.toBoolean()) {
-        repositories {
-            mavenDeployer {
-                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
-                pom.version = '1.0'
-                pom.groupId = 'com.muheda'
-                pom.artifactId = 'citylocation'
-            }
-        }
-    }
-}
+//uploadArchives {
+//    if (isAllPack.toBoolean() || isCityLocation.toBoolean()) {
+//        repositories {
+//            mavenDeployer {
+//                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
+//                pom.version = '1.0'
+//                pom.groupId = 'com.muheda'
+//                pom.artifactId = 'citylocation'
+//            }
+//        }
+//    }
+//}

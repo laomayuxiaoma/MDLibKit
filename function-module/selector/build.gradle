@@ -61,15 +61,15 @@ dependencies {
 
 
 
-uploadArchives {
-    if (isAllPack.toBoolean() || isPickerviewPack.toBoolean()) {
-        repositories {
-            mavenDeployer {
-                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
-                pom.version = '1.0'
-                pom.groupId = 'com.muheda.pickerview'
-                pom.artifactId = 'pickerview'
-            }
-        }
-    }
-}
+//uploadArchives {
+//    if (isAllPack.toBoolean() || isPickerviewPack.toBoolean()) {
+//        repositories {
+//            mavenDeployer {
+//                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
+//                pom.version = '1.0'
+//                pom.groupId = 'com.muheda.pickerview'
+//                pom.artifactId = 'pickerview'
+//            }
+//        }
+//    }
+//}
