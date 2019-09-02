@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    api fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
@@ -40,41 +40,16 @@ dependencies {
 
     compile project(':function-module:pickerview')
     compile project(':function-module:calendar')
-
-//    if (isDependencies.toBoolean()) {
-//        api('com.muheda.customrefreshlayout:customrefreshlayout:1.0')
-//        api('com.muheda.customtitleview:customtitleview:1.0')
-//        api('com.example.pictureselect:pictureselect:1.0')
-//        api('com.example.toast_dialog:toast_dialog:1.0')
-//        api('com.example.muheda.sqlitepal:sqlitepal:1.0')
-//        api('com.muheda.imageloader:imageloader:1.0')
-//        api('com.example.muheda.baseanimation:baseanimation:1.0')
-//        api('com.muheda.pickerview:pickerview:1.0')
-//        api('com.muheda.bottombar:bottombar:1.0')
-//        api('com.muheda:zxing:1.0')
-//        api('com.muheda:calendarview:1.0')
-//        api('com.muheda:servicelocation:1.0')
-//        api('com.muheda:citylocation:1.0')
-//        api('com.muheda.amapservice:1.0')
-//        api('com.muheda.selector:1.0')
-//    } else {
-        compile project(':function-module:customtitleview')
-        compile project(':function-module:imageloader')
-        compile project(':function-module:customrefreshlayout')
-        compile project(':function-module:toast_dialog')
-        //compile project(':function-module:servicelocation')
-        compile project(':function-module:citylocation')
-        compile project(':function-module:pictureselect')
-        compile project(':function-module:amapservice')
-        compile project(':function-module:selector')
-//    }
+    compile project(':function-module:customtitleview')
+    compile project(':function-module:imageloader')
+    compile project(':function-module:customrefreshlayout')
+    compile project(':function-module:toast_dialog')
+    //compile project(':function-module:servicelocation')
+    compile project(':function-module:citylocation')
+    compile project(':function-module:pictureselect')
+    compile project(':function-module:amapservice')
+    compile project(':function-module:selector')
 }
-
-
-
-
-
-
 
 
 //uploadArchives {

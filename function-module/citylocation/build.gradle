@@ -32,11 +32,7 @@ dependencies {
     implementation files('libs/pinyin4android1.0.jar')
     implementation files('libs/pinyin4j-2.5.0.jar')
     compile 'com.android.support:design:27.1.1'
-    if (isDependencies.toBoolean()) {
-        api('com.muheda.amapservice:1.0')
-    }else {
-        compile project(':function-module:amapservice')
-    }
+    compile project(':function-module:amapservice')
 }
 //uploadArchives {
 //    if (isAllPack.toBoolean() || isCityLocation.toBoolean()) {
