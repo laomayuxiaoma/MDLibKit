@@ -40,6 +40,19 @@ allprojects {
         maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
         
     }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '27.1.1' //这里改为你项目使用的版本即可
+                }
+            }
+        }
+
+    }
 }
 subprojects {
     version = '3.6.0'

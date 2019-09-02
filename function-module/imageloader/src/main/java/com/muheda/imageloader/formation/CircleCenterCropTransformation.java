@@ -3,7 +3,6 @@ package com.muheda.imageloader.formation;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.NonNull;
 
 import java.security.MessageDigest;
 
@@ -37,7 +36,7 @@ public class CircleCenterCropTransformation extends CustomCenterCropTransformati
     }
 
     @Override
-    public void updateDiskCacheKey(@NonNull MessageDigest messageDigest) {
+    public void updateDiskCacheKey(MessageDigest messageDigest) {
         messageDigest.update(ID_BYTES);
     }
 }
