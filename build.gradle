@@ -23,10 +23,10 @@ buildscript {
 
 allprojects {
     repositories {
-//        flatDir {
-//            dirs project(':base-module:basekit').file('libs')
-//            dirs 'libs'
-//        }
+        flatDir {
+            dirs project(':third-module:thirdkit').file('libs')
+            dirs 'libs'
+        }
         google()
         jcenter()
         maven { url "https://dl.bintray.com/drummer-aidan/maven/" }
