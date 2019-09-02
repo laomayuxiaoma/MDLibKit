@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/function-module" />
+            <option value="$PROJECT_DIR$/function-module/amapservice" />
+            <option value="$PROJECT_DIR$/function-module/calendar" />
+            <option value="$PROJECT_DIR$/function-module/citylocation" />
+            <option value="$PROJECT_DIR$/function-module/citypickerview" />
+            <option value="$PROJECT_DIR$/function-module/customrefreshlayout" />
+            <option value="$PROJECT_DIR$/function-module/customtitleview" />
+            <option value="$PROJECT_DIR$/function-module/functionkit" />
+            <option value="$PROJECT_DIR$/function-module/imageloader" />
+            <option value="$PROJECT_DIR$/function-module/pickerview" />
+            <option value="$PROJECT_DIR$/function-module/pictureselect" />
+            <option value="$PROJECT_DIR$/function-module/selector" />
+            <option value="$PROJECT_DIR$/function-module/toast_dialog" />
+            <option value="$PROJECT_DIR$/system-module" />
+            <option value="$PROJECT_DIR$/system-module/systemkit" />
+            <option value="$PROJECT_DIR$/third-module" />
+            <option value="$PROJECT_DIR$/third-module/pushlib" />
+            <option value="$PROJECT_DIR$/third-module/thirdkit" />
+            <option value="$PROJECT_DIR$/third-module/weiboSDK" />
+            <option value="$PROJECT_DIR$/third-module/zxing" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

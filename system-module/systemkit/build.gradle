@@ -27,12 +27,6 @@ android {
 
 }
 
-repositories {
-    // ...
-    maven { url "https://jitpack.io" }
-}
-
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
@@ -56,21 +50,3 @@ dependencies {
 
 
 
-
-
-
-
-
-
-uploadArchives {
-    if (isAllPack.toBoolean() || isSystemkitPack.toBoolean()) {
-        repositories {
-            mavenDeployer {
-                repository(url: "file://localhost/" + System.getenv("PATH_HOME") + "/extras/")
-                pom.version = '1.0'
-                pom.groupId = 'com.example.muheda.mhdsystemkit'
-                pom.artifactId = 'mhdsystemkit'
-            }
-        }
-    }
-}
