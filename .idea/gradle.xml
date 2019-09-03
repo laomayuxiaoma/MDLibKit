@@ -24,9 +24,14 @@
             <option value="$PROJECT_DIR$/function-module/selector" />
             <option value="$PROJECT_DIR$/function-module/tabcontainerview" />
             <option value="$PROJECT_DIR$/function-module/toast_dialog" />
+            <option value="$PROJECT_DIR$/property-module" />
+            <option value="$PROJECT_DIR$/property-module/monitor" />
+            <option value="$PROJECT_DIR$/property-module/propertykit" />
             <option value="$PROJECT_DIR$/system-module" />
+            <option value="$PROJECT_DIR$/system-module/baseanimation" />
             <option value="$PROJECT_DIR$/system-module/systemkit" />
             <option value="$PROJECT_DIR$/third-module" />
+            <option value="$PROJECT_DIR$/third-module/loadandshare" />
             <option value="$PROJECT_DIR$/third-module/pushlib" />
             <option value="$PROJECT_DIR$/third-module/thirdkit" />
             <option value="$PROJECT_DIR$/third-module/weiboSDK" />
