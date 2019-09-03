@@ -3,31 +3,31 @@
 3    package="com.bigkoo.pickerview.test" >
 4
 5    <uses-sdk
-5-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:5:5-74
+5-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:5:5-74
 6        android:minSdkVersion="17"
-6-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:5:15-41
+6-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:5:15-41
 7        android:targetSdkVersion="27" />
-7-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:5:42-71
+7-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:11:5-15:76
+9-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:11:5-15:76
 10        android:name="android.support.test.runner.AndroidJUnitRunner"
-10-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:11:22-83
+10-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:11:22-83
 11        android:functionalTest="false"
-11-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:14:22-52
+11-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:13:22-53
+12-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:13:22-53
 13        android:label="Tests for com.bigkoo.pickerview.test"
-13-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:15:22-74
+13-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:15:22-74
 14        android:targetPackage="com.bigkoo.pickerview.test" />
-14-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:12:22-72
+14-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:12:22-72
 15
 16    <application android:debuggable="true" >
-16-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:7:5-9:19
-16-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:7:18-43
+16-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:7:5-9:19
+16-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:8:9-60
-17-->D:\NewProject\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6282596160620895535.xml:8:23-57
+17-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:8:9-60
+17-->D:\MDLibKit\function-module\selector\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger632822091504327488.xml:8:23-57
 18    </application>
 19
 20</manifest>

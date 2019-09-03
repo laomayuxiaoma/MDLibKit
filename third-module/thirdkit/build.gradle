@@ -35,4 +35,5 @@ dependencies {
     compile project(':third-module:weiboSDK')
     compile project(':third-module:zxing')
     compile project(':third-module:pushlib')
+    compile project(':third-module:loadandshare')
 }

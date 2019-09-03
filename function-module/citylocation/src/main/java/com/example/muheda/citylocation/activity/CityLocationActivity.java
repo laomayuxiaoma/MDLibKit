@@ -18,7 +18,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.amap.api.location.AMapLocation;
-import com.example.amapservice.LocationUtils;
+import com.example.amapservice.LocationPolicy;
+import com.example.amapservice.LocationManager;
+import com.example.amapservice.OnLocationListener;
 import com.example.muheda.citylocation.R;
 import com.example.muheda.citylocation.adapter.CityListAdapter;
 import com.example.muheda.citylocation.db.DBHelper;
@@ -104,13 +106,16 @@ public class CityLocationActivity extends AppCompatActivity implements LetterLis
 
             }
         });
-        LocationUtils.start(this, new LocationUtils.onLocationListener() {
-            @Override
-            public void getData(AMapLocation aMapLocation) {
-                cityListAdapter.setCity(aMapLocation.getCity());
-                cityListAdapter.notifyDataSetChanged();
-            }
-        });
+        new LocationManager.Builder()
+                        .setLocationPolicy(LocationPolicy.ONCE)
+                        .setOnLocationListener(new OnLocationListener() {
+                            @Override
+                            public void getData(AMapLocation aMapLocation) {
+                                cityListAdapter.setCity(aMapLocation.getCity());
+                                cityListAdapter.notifyDataSetChanged();
+                            }
+                        }).build().start(this);
+
     }
 
     private void initPackage() {
