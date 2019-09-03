@@ -18,9 +18,11 @@
             <option value="$PROJECT_DIR$/function-module/customtitleview" />
             <option value="$PROJECT_DIR$/function-module/functionkit" />
             <option value="$PROJECT_DIR$/function-module/imageloader" />
+            <option value="$PROJECT_DIR$/function-module/mdsearch" />
             <option value="$PROJECT_DIR$/function-module/pickerview" />
             <option value="$PROJECT_DIR$/function-module/pictureselect" />
             <option value="$PROJECT_DIR$/function-module/selector" />
+            <option value="$PROJECT_DIR$/function-module/tabcontainerview" />
             <option value="$PROJECT_DIR$/function-module/toast_dialog" />
             <option value="$PROJECT_DIR$/system-module" />
             <option value="$PROJECT_DIR$/system-module/systemkit" />

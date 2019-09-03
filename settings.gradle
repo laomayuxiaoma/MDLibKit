@@ -4,6 +4,7 @@ include ':app',':function-module:citypickerview', ':function-module:pickerview',
 ":function-module:pictureselect",":function-module:amapservice",
 ':function-module:functionkit',':function-module:customtitleview',
 ':function-module:selector', ':function-module:calendar',
+':function-module:mdsearch',':function-module:tabcontainerview',
 ':third-module:thirdkit',':third-module:zxing',
 ':third-module:weiboSDK', ':third-module:pushlib',
 ':system-module:systemkit'
