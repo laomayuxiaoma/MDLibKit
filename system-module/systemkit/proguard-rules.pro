@@ -21,14 +21,14 @@
 #-renamesourcefileattribute SourceFile
 
 
--keep class com.example.muheda.mhdsystemkit.systemUI.commonView.* { *; }
+-keep class com.muheda.mhdsystemkit.systemUI.commonView.* { *; }
 
 #-keep class  * extends com.example.muheda.mhdsystemkit.systemUI.stateView.BaseView { *; }
 
--keepclassmembers class * extends com.example.muheda.mhdsystemkit.systemUI.stateView.BaseView {
+-keepclassmembers class * extends com.muheda.mhdsystemkit.systemUI.stateView.BaseView {
  <fields>;
  private void handleCombination();}
 
- -keepclassmembers class com.example.muheda.mhdsystemkit.systemUI.stateView.BaseView {
+ -keepclassmembers class com.muheda.mhdsystemkit.systemUI.stateView.BaseView {
   <fields>;
   private void handleCombination();}

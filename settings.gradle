@@ -6,5 +6,5 @@ include ':app',':function-module:citypickerview', ':function-module:pickerview',
 ':function-module:selector', ':function-module:calendar',
 ':third-module:thirdkit',':third-module:zxing',
 ':third-module:weiboSDK', ':third-module:pushlib',
-'system-module:systemkit'
+':system-module:systemkit'
 rootProject.name='MDLibKit'
