@@ -1,10 +1,12 @@
-include ':app',':function-module:citypickerview', ':function-module:pickerview',
+include ':app',':function-module:citypickerview', ':function-module:pickerview', ':property-module:propertykit',':property-module:monitor',
 ':function-module:customrefreshlayout', ':function-module:imageloader',
 ':function-module:toast_dialog', ':function-module:citylocation',
 ":function-module:pictureselect",":function-module:amapservice",
 ':function-module:functionkit',':function-module:customtitleview',
 ':function-module:selector', ':function-module:calendar',
+':function-module:mdsearch',':function-module:tabcontainerview',
 ':third-module:thirdkit',':third-module:zxing',
-':third-module:weiboSDK', ':third-module:pushlib',
-':system-module:systemkit'
+':third-module:weiboSDK', ':third-module:pushlib',':third-module:loadandshare',
+':system-module:systemkit',
+':system-module:baseanimation'
 rootProject.name='MDLibKit'
